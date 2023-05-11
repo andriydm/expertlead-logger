@@ -37,7 +37,7 @@ public class AsyncLogTarget implements Target {
 
     @Override
     public void log(List<Message> message) {
-        message.forEach(m -> log(message));
+        message.forEach(m -> log(m));
     }
 
     @Override
